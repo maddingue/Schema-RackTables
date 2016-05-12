@@ -111,8 +111,17 @@ Schema::RackTables - Inventory of the database schemas of RackTables
 =head1 DESCRIPTION
 
 This module is an inventory of the database schemas of the web application
-RackTables. Following L<Schema::Bugzilla>'s principles, it provides access
-to the database schema of each known version of the software.
+L<RackTables|http://racktables.org/>. Following L<Schema::Bugzilla>'s
+principles, it provides access to the database schema of each known version
+of the software, from 0.14.4 up to 0.20.11.
+
+=head1 RATIONALE
+
+The idea behind the C<Schema> family of distributions is to give access
+to the database schema of each version of the software. This can be useful
+to compare the different versions, generate documentation, or make an
+API that can handle all versions. A schema version is defined as the
+version of the first release that uses it.
 
 
 =head1 METHODS
