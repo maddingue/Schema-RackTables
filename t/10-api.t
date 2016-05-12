@@ -6,7 +6,7 @@ use Schema::RackTables;
 
 
 my $module = "Schema::RackTables";
-my %latest = ( version => "0.20.10", schema => "0.20.9" );
+my %latest = ( version => "0.20.11", schema => "0.20.11" );
 my @cases = (
     { version => "0.14.5",  schema => "0.14.4" },
     { version => "0.18.0",  schema => "0.18.0" },
